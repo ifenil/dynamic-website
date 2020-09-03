@@ -26,7 +26,7 @@ SECRET_KEY = '^r%6%m=pzrze*w0n05dc^=7kd7)-(p1p%ybl0cep_*el@i-2um'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["dynamicwebsitee.herokuapp.com","127.0.0.1"]
 
 
 # Application definition
@@ -43,6 +43,9 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    
+    'whitenoise.middleware.WhiteNoiseMiddleware',
+    
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
