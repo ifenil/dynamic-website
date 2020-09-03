@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = '^r%6%m=pzrze*w0n05dc^=7kd7)-(p1p%ybl0cep_*el@i-2um'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["dynamicwebsitee.herokuapp.com","127.0.0.1"]
 
